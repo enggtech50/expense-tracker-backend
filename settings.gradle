@@ -1,0 +1,10 @@
+rootProject.name = "expense-tracker-backend"
+
+include ':shared'
+include 'shared:crypto-core'
+
+include ':services'
+include 'services:crypto-service'
+
+include ':infrastructure'
+include 'infrastructure:vault'
