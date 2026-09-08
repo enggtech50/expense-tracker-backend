@@ -1,0 +1,9 @@
+plugins {
+  id 'java-library'
+}
+
+dependencies {
+
+  api 'org.springframework.cloud:spring-cloud-starter-vault-config'
+  testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
